@@ -12,17 +12,19 @@
 		<form action="" method="get">
 			Nom de la tâche : <input type="text" name="nomTache" placeholder="Ranger le local" required><br>
 			Type : <select name="type">
-				<option value="1">Opé Crêpe</option>
-				<option value="2">Soirée Ludo</option>
-				<option value="3">Week-end</option>
-				<option value="4">LAN</option>
-				<option value="5">Friperie</option>
+				<option value="1">Game Design</option>
+				<option value="2">Programmation</option>
+				<option value="3">Game Art</option>
+				<option value="4">Sound Design</option>
+				<option value="5">Communication</option>
 				<option value="6">Autres</option>
 			</select><br>
 			Personne(s) assignée(s) : <br><select name="personneAssignee" multiple required>
-				<option value="1">Mathéo</option>
-				<option value="2">Mathilde</option>
-				<option value="3">Gaëtan</option>
+				<option value="1">Gaëtan</option>
+				<option value="2">Joffrey</option>
+				<option value="3">Luc</option>
+				<option value="4">Nicolas</option>
+				<option value="5">P-A</option>
 			</select><br>
 			Priorité : <select name="priorite" required>
 				<option value="1">Obligatoire & Urgent</option>
@@ -34,13 +36,9 @@
 				<option value="1">Fait</option>
 				<option value="2">En cours</option>
 				<option value="3">Pas commence</option>
-			</select><br><br>
-			<select name="tacheModifiee">
-				<option value="Nouvelle">Nouvelle tache</option>
-				<option value="1">Ranger les vêtements de la frippe</option>
-				<option value="2">Finir l'orga du bingo</option>
-				<option value="3">Faire l'escape game</option>
 			</select><br>
+
+			<button type="button">Sauvegarder la tâche</button>
 		</form>
 	</body>
 </html>
